@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div>
       <div style={styles.mainContainer}>
-        {/* Left side - Info Panel */}
+        {/*Bilgi kısmı */}
         <div style={styles.infoPanelContainer}>
           <div style={styles.panel}>
             {/* Header */}
@@ -64,7 +64,7 @@ const Home = () => {
               <div style={styles.divider}></div>
           </div>
 
-          {/* Feature cards */}
+          {/* Özellikler */}
             <div style={styles.featuresContainer}>
             {features.map((feature, index) => (
               <div 
@@ -113,9 +113,9 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right side - Video and Photo */}
+        {/*Video ve fotoğraf ekleme */}
         <div style={styles.rightSection}>
-          {/* Background Photo */}
+          {/* Arka planda fotoğraf var*/}
           <div style={styles.backgroundPhoto}>
             <img 
               src="src/assets/fabrika.jpg" 
@@ -125,7 +125,7 @@ const Home = () => {
             <div style={styles.photoOverlay}></div>
           </div>
           
-          {/* Video Container */}
+          {/* Video fotoğrafın üstünde */}
           <div style={styles.videoContainer}>
             <video 
               style={styles.video}
@@ -148,10 +148,10 @@ const Home = () => {
         <div style={styles.sectionTitleDivider}></div>
       </div>
 
-      {/* Bottom Information Section */}
+      {/* Bilgi Kısmı */}
       <div style={styles.bottomInfoSection}>
         <div style={styles.bottomContent}>
-          {/* Text content on the left */}
+          {/* Metin */}
           <div style={styles.infoBlock}>
             <div style={styles.infoHeader}>
               <h3 style={styles.infoTitle}>What is RTLS Real-time Locating System</h3>
@@ -168,7 +168,7 @@ const Home = () => {
             </p>
           </div>
           
-          {/* Image on the right */}
+          {/* Resmim1*/}
           <div style={styles.imageContainer}>
             <img 
               src="/src/assets/fabrika.jpg" 
@@ -179,10 +179,10 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Second Bottom Information Section */}
+      {/* Bigi */}
       <div style={styles.bottomInfoSection}>
         <div style={styles.secondBottomContent}>
-          {/* Sol tarafta depo2.jpg resmi */}
+          {/*Depo2 fotoğraf */}
           <div style={{ display: 'flex', alignItems: 'stretch', marginRight: '32px' }}>
             <img 
               src={depo2} 
@@ -219,7 +219,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Third Bottom Information Section - Atex Certified Trackers */}
+      {/*Atex kısmı*/}
       <div style={styles.bottomInfoSection}>
         <div style={styles.thirdBottomContent}>
           <div style={styles.atexInfoBlock}>
@@ -677,7 +677,7 @@ const styles = {
   }
 };
 
-// CSS animations
+// CSS animation ekleme
 const styleSheet = document.createElement("style");
 styleSheet.innerText = `
   @keyframes fadeIn {

@@ -1,10 +1,10 @@
 import React from "react";
-// import Navbar from "./Navbar"; // Navbar kaldırıldı
+
 
 const ProductsPage = () => {
   return (
     <div style={{ background: '#f3f4f6', minHeight: '100vh' }}>
-      {/* Navbar kaldırıldı */}
+      {/* Başlık var altına ürünler gelecek*/}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '64px' }}>
         <h1 style={{
           fontSize: '3rem',

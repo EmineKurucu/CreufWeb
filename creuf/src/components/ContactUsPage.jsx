@@ -4,7 +4,7 @@ import { Mail, Globe, MapPin, Phone } from 'lucide-react';
 const ContactUs = () => {
   return (
     <div className="min-h-screen" style={{ background: '#f3f4f6' }}>
-      {/* Header Section */}
+      {/* Header Kısmı */}
       <section className="py-20 px-6 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 opacity-70"></div>
         <div className="absolute top-10 left-10 w-20 h-20 bg-indigo-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
@@ -19,7 +19,7 @@ const ContactUs = () => {
             We are here to help
           </p>
           
-          {/* Contact Information */}
+          {/* Contact Information Kısmı */}
           <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border border-white/50 animate-slideInUp animation-delay-400 hover:shadow-3xl transition-all duration-500 hover:scale-105">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="text-left group">
@@ -49,7 +49,7 @@ const ContactUs = () => {
         </div>
       </section>
 
-      {/* Offices Section */}
+      {/* Officlerin Olduğu kısım */}
       <section className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16 animate-slideInUp">
@@ -57,7 +57,7 @@ const ContactUs = () => {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             
-            {/* Germany/EU Office */}
+            {/* Germany/EU */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-500 hover:scale-105 animate-slideInUp animation-delay-200 group">
               <div className="bg-gradient-to-r from-emerald-800 via-green-900 to-blue-900 text-white p-8 text-center relative overflow-hidden">
                 <div className="absolute inset-0 bg-black/10"></div>
@@ -67,7 +67,7 @@ const ContactUs = () => {
               </div>
               <div className="p-8">
                 <div className="grid grid-cols-2 gap-4">
-                  {/* Map - Sol taraf */}
+                  {/* Map */}
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
@@ -84,7 +84,7 @@ const ContactUs = () => {
                     <a href="https://maps.app.goo.gl/oDEd3bRonrgpJV8P6" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline text-sm">Haritada Aç</a>
                   </div>
                   
-                  {/* Address - Sağ taraf */}
+                  {/* Address */}
                   <div className="col-span-1 text-gray-700 space-y-2 flex flex-col justify-center">
                     <p className="font-bold text-gray-900 mb-3 text-lg">Germany / EU</p>
                     <p className="flex items-center"><MapPin className="w-4 h-4 mr-2 text-amber-500" />Bahnhofstraße 61</p>
@@ -105,7 +105,7 @@ const ContactUs = () => {
               </div>
               <div className="p-8">
                 <div className="grid grid-cols-2 gap-4">
-                  {/* Map - Sol taraf */}
+                  {/* Map*/}
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
@@ -122,7 +122,7 @@ const ContactUs = () => {
                     <a href="https://g.co/kgs/EBWzkhY" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline text-sm">Haritada Aç</a>
                   </div>
                   
-                  {/* Address - Sağ taraf */}
+                  {/* Address */}
                   <div className="col-span-1 text-gray-700 space-y-2 flex flex-col justify-center">
                     <p className="font-bold text-gray-900 mb-3 text-lg">Address: USA</p>
                     <p className="flex items-center"><MapPin className="w-4 h-4 mr-2 text-blue-500" />353 Sacramento St Ste 1812</p>
@@ -142,7 +142,7 @@ const ContactUs = () => {
               </div>
               <div className="p-8">
                 <div className="grid grid-cols-2 gap-4">
-                  {/* Map - Sol taraf */}
+                  {/* Map*/}
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
@@ -159,7 +159,7 @@ const ContactUs = () => {
                     <a href="https://maps.app.goo.gl/sJMm5MCfMurnMZix5" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline text-sm">Haritada Aç</a>
                   </div>
                   
-                  {/* Address - Sağ taraf */}
+                  {/* Address */}
                   <div className="col-span-1 text-gray-700 space-y-2 flex flex-col justify-center">
                     <p className="font-bold text-gray-900 mb-3 text-lg">Address: UK</p>
                     <p className="flex items-center"><MapPin className="w-4 h-4 mr-2 text-emerald-500" />59 Euston Avenue</p>
@@ -199,7 +199,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      {/* Custom Styles */}
+      {/*  Styles */}
       <style jsx>{`
         @keyframes fadeIn {
           from { opacity: 0; }
