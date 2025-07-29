@@ -26,3 +26,13 @@ Endüstriyel alanda ürün tasarımı ve üretimi yapan bir şirket için React 
 ### Home Page
 
 ![Proje Ekran Görüntüsü](screenshots/resim1.png)
+![Proje Ekran Görüntüsü](screenshots/resim2.png)
+![Proje Ekran Görüntüsü](screenshots/resim3.png)
+
+### Products
+![Proje Ekran Görüntüsü](screenshots/resim4.png)
+![Proje Ekran Görüntüsü](screenshots/resim5.png)
+
+### Contact Us
+![Proje Ekran Görüntüsü](screenshots/resim6.png)
+![Proje Ekran Görüntüsü](screenshots/resim7.png)
