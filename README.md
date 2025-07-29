@@ -21,4 +21,5 @@
 
 <h2>Fotoğraflar</h2>
 <h3>Home Page</h3>
-![Proje Ekran Görüntüsü](./screenshots/resim1.png)
+![Proje Ekran Görüntüsü](../screenshots/resim1.png)
+
