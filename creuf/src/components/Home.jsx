@@ -135,7 +135,6 @@ const Home = () => {
               playsInline
             >
               <source src={video} type="video/mp4" />
-              Your browser does not support the video tag.
             </video>
             <div style={styles.videoOverlay}></div>
           </div>
