@@ -1,9 +1,5 @@
 import React, { useEffect } from "react";
 import { BarChart3, Users, Truck, TrendingUp, MapPin, Shield, Zap, Eye } from "lucide-react";
-import depo2 from "../assets/depo2.jpg";
-import power from "../assets/power.jpg";
-import video from "../assets/video.mp4";
-import fabrikaImg from "../assets/fabrika.jpg";
 import { useLocation } from "react-router-dom";
 
 const Home = () => {
@@ -17,6 +13,14 @@ const Home = () => {
       }
     }
   }, [location]);
+
+  // Public klasöründen görselleri referans et
+  const images = {
+    depo2: "../../public/depo2.jpg",
+    power: "../../public/power.jpg",
+    video: "../../public/video.mp4",
+    fabrika: "../../public/fabrika.jpg"
+  };
 
   const features = [
     {
@@ -119,9 +123,13 @@ const Home = () => {
           {/* Arka planda fotoğraf var*/}
           <div style={styles.backgroundPhoto}>
           <img 
-            src={fabrikaImg}
+            src={images.fabrika}
             alt="Background"
             style={styles.photoImage}
+            onError={(e) => {
+              console.error('Image failed to load:', images.fabrika);
+              e.target.style.display = 'none';
+            }}
           />
             <div style={styles.photoOverlay}></div>
           </div>
@@ -134,8 +142,11 @@ const Home = () => {
               muted 
               loop 
               playsInline
+              onError={(e) => {
+                console.error('Video failed to load:', images.video);
+              }}
             >
-              <source src={video} type="video/mp4" />
+              <source src={images.video} type="video/mp4" />
             </video>
             <div style={styles.videoOverlay}></div>
           </div>
@@ -171,9 +182,13 @@ const Home = () => {
           {/* Resmim1*/}
           <div style={styles.imageContainer}>
             <img 
-              src={fabrikaImg}
+              src={images.fabrika}
               alt="Background"
               style={styles.photoImage}
+              onError={(e) => {
+                console.error('Image failed to load:', images.fabrika);
+                e.target.style.display = 'none';
+              }}
             />
           </div>
         </div>
@@ -185,7 +200,7 @@ const Home = () => {
           {/*Depo2 fotoğraf */}
           <div style={{ display: 'flex', alignItems: 'stretch', marginRight: '32px' }}>
             <img 
-              src={depo2} 
+              src={images.depo2} 
               alt="Depo 2" 
               style={{ 
                 height: '650px', 
@@ -195,7 +210,11 @@ const Home = () => {
                 objectFit: 'cover', 
                 borderRadius: '16px', 
                 boxShadow: '0 4px 16px rgba(0,0,0,0.10)'
-              }} 
+              }}
+              onError={(e) => {
+                console.error('Image failed to load:', images.depo2);
+                e.target.style.display = 'none';
+              }}
             />
           </div>
           <div style={styles.centeredInfoBlock}>
@@ -235,9 +254,13 @@ const Home = () => {
           </div>
           <div style={styles.powerImageContainer}>
             <img 
-              src={power} 
+              src={images.power} 
               alt="Power" 
               style={styles.powerImage}
+              onError={(e) => {
+                console.error('Image failed to load:', images.power);
+                e.target.style.display = 'none';
+              }}
             />
           </div>
         </div>
