@@ -27,8 +27,8 @@ const ContactUs = () => {
                   <Mail className="w-6 h-6 text-indigo-500 group-hover:scale-110 transition-transform" />
                   <p>
                     <strong className="text-gray-900">Email:</strong> 
-                    <a href="mailto:info@creuf.com" className="ml-2 hover:text-indigo-600 transition-colors">
-                      info@creuf.com
+                                    <a href="mailto:info@uwbix.com" className="ml-2 hover:text-indigo-600 transition-colors">
+                  info@uwbix.com
                     </a>
                   </p>
                 </div>
@@ -38,8 +38,8 @@ const ContactUs = () => {
                   <Globe className="w-6 h-6 text-indigo-500 group-hover:scale-110 transition-transform" />
                   <p>
                     <strong className="text-gray-900">Website:</strong> 
-                    <a href="https://www.creuf.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-indigo-600 transition-colors">
-                      www.creuf.com
+                                    <a href="https://www.uwbix.com" target="_blank" rel="noopener noreferrer" className="ml-2 hover:text-indigo-600 transition-colors">
+                  www.uwbix.com
                     </a>
                   </p>
                 </div>
@@ -71,7 +71,7 @@ const ContactUs = () => {
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.123456789!2d9.5891234!3d52.7001234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2b123456789ab%3A0x123456789abcdef!2sBahnhofstraße%2061%2C%2029693%20Hodenhagen%2C%20Germany!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5325.7044338766145!2d11.567526156574795!3d48.132373277610114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf5e2d65f865%3A0x1ee64262e11ccf48!2sBlumenstra%C3%9Fe%2C%2080469%20M%C3%BCnchen%2C%20Almanya!5e0!3m2!1str!2str!4v1753972174108!5m2!1str!2str"
                         width="100%"
                         height="100%"
                         style={{ border: 0, borderRadius: '16px' }}
@@ -109,7 +109,7 @@ const ContactUs = () => {
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d-122.4001234!3d37.7931234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580123456789b%3A0x123456789abcdef!2s353%20Sacramento%20St%20Ste%201812%2C%20San%20Francisco%2C%20CA%2094111%2C%20USA!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d803745.3502699104!2d-106.87601388832657!3d38.102268933586316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8715f67b88ddf049%3A0x76c00b00f7d56fa8!2sSaguache%2C%20Colorado%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2str!4v1753972342265!5m2!1str!2str"
                         width="100%"
                         height="100%"
                         style={{ border: 0, borderRadius: '16px' }}
@@ -146,7 +146,7 @@ const ContactUs = () => {
                   <div className="col-span-1">
                     <div className="h-40 rounded-2xl overflow-hidden shadow-inner group-hover:shadow-lg transition-shadow mb-2">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.123456789!2d-0.4181234!3d51.6551234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766123456789ab%3A0x123456789abcdef!2s59%20Euston%20Ave%2C%20Watford%20WD18%207SL%2C%20UK!5e0!3m2!1str!2str!4v1710000000000!5m2!1str!2str"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295805.09486024966!2d-3.249662931599975!3d54.604392454739504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487cf8499e5be4fd%3A0x40cf99eed6cb710!2sEden%20District%2C%20Birle%C5%9Fik%20Krall%C4%B1k!5e0!3m2!1str!2str!4v1753972400231!5m2!1str!2str"
                         width="100%"
                         height="100%"
                         style={{ border: 0, borderRadius: '16px' }}
@@ -182,15 +182,15 @@ const ContactUs = () => {
           <div style={styles.footerSection}>
             <h3 style={styles.footerTitle}>About us</h3>
             <p style={styles.footerDescription}>
-              Creuf manufactures leading edge technologies for life and industry.
+              UWBix manufactures leading edge technologies for life and industry.
             </p>
           </div>
           <div style={styles.footerSection}>
             <div style={styles.contactInfo}>
-              <a href="mailto:info@creuf.com" style={styles.email}>info@creuf.com</a>
+              <a href="mailto:info@uwbix.com" style={styles.email}>info@uwbix.com</a>
               <div style={styles.address}>
-                <p style={styles.addressLine}>Bahnhofstraße 61</p>
-                <p style={styles.addressLine}>29693 Hodenhagen</p>
+                <p style={styles.addressLine}>Blumenstraße</p>
+                <p style={styles.addressLine}>Blumenstraße</p>
                 <p style={styles.addressLine}>GERMANY</p>
                 <p style={styles.poweredBy}>Powered by E.K</p>
               </div>

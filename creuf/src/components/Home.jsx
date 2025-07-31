@@ -56,7 +56,7 @@ const Home = () => {
                 <div style={styles.logoIcon}>
                   <Eye size={20} color="white" />
                 </div>
-                <h2 style={styles.title}>Welcome to CREUF</h2>
+                <h2 style={styles.title}>Welcome to UWBix</h2>
               </div>
               <p style={styles.subtitle}>
               Precision Real-Time Positioning & Tracking Solutions
@@ -248,16 +248,16 @@ const Home = () => {
           <div style={styles.footerSection}>
             <h3 style={styles.footerTitle}>About us</h3>
             <p style={styles.footerDescription}>
-              Creuf manufactures leading edge technologies for life and industry.
+              UWBix manufactures leading edge technologies for life and industry.
             </p>
           </div>
           
           <div style={styles.footerSection}>
             <div style={styles.contactInfo}>
-              <a href="mailto:info@creuf.com" style={styles.email}>info@creuf.com</a>
+              <a href="mailto:info@uwbix.com" style={styles.email}>info@uwbix.com</a>
               <div style={styles.address}>
-                <p style={styles.addressLine}>Bahnhofstraße 61</p>
-                <p style={styles.addressLine}>29693 Hodenhagen</p>
+                <p style={styles.addressLine}>Blumenstraße</p>
+                <p style={styles.addressLine}>Blumenstra</p>
                 <p style={styles.addressLine}>GERMANY</p>
                 <p style={styles.poweredBy}>Powered by E.K</p>
               </div>

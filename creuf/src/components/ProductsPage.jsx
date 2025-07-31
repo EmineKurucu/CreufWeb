@@ -56,7 +56,7 @@ const Products = () => {
       <div style={styles.headerSection}>
         <div style={styles.headerContent}>
           <div style={styles.logoContainer}>
-            <h1 style={styles.mainTitle}>CREUF Products</h1>
+            <h1 style={styles.mainTitle}>UWBix Products</h1>
           </div>
           <p style={styles.headerSubtitle}>
             Precision UWB Tracking Solutions for Industrial Applications
@@ -121,7 +121,7 @@ const Products = () => {
         <div style={styles.technologyContent}>
           <div style={styles.infoBlock}>
             <div style={styles.infoHeader}>
-              <h3 style={styles.infoTitle}>Why Choose CREUF UWB Technology?</h3>
+              <h3 style={styles.infoTitle}>Why Choose UWBix UWB Technology?</h3>
             </div>
             <p style={styles.infoDescription}>
               Our Ultra-Wideband (UWB) technology delivers centimeter-level accuracy in real-time positioning, 
@@ -168,18 +168,18 @@ const Products = () => {
       <div style={styles.footer}>
         <div style={styles.footerContent}>
           <div style={styles.footerSection}>
-            <h3 style={styles.footerTitle}>About CREUF</h3>
+            <h3 style={styles.footerTitle}>About us</h3>
             <p style={styles.footerDescription}>
-              Leading manufacturer of precision UWB tracking solutions for industrial applications worldwide.
+              UWBix manufactures leading edge technologies for life and industry.
             </p>
           </div>
           
           <div style={styles.footerSection}>
             <div style={styles.contactInfo}>
-              <a href="mailto:info@creuf.com" style={styles.email}>info@creuf.com</a>
+              <a href="mailto:info@uwbix.com" style={styles.email}>info@uwbix.com</a>
               <div style={styles.address}>
-                <p style={styles.addressLine}>Bahnhofstraße 61</p>
-                <p style={styles.addressLine}>29693 Hodenhagen</p>
+                <p style={styles.addressLine}>Blumenstraße</p>
+                <p style={styles.addressLine}>Blumenstraße</p>
                 <p style={styles.addressLine}>GERMANY</p>
                 <p style={styles.poweredBy}>Powered by E.K</p>
               </div>

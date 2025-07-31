@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="appNavbar">
       <div className="appHeader">
-        <img src={logo} alt="CREUF" className="navbarLogo"></img>
+        <span className="navbarLogo">UWBix</span>
       </div>
       <a className="appHeader"></a>
       <ul className="appList">
