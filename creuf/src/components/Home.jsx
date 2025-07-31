@@ -19,7 +19,8 @@ const Home = () => {
     depo2: "../../public/depo2.jpg",
     power: "../../public/power.jpg",
     video: "../../public/video.mp4",
-    fabrika: "../../public/fabrika.jpg"
+    fabrika: "../../public/endustri.jpg",
+    fab: "../../public/fab.jpg"
   };
 
   const features = [
@@ -182,7 +183,7 @@ const Home = () => {
           {/* Resmim1*/}
           <div style={styles.imageContainer}>
             <img 
-              src={images.fabrika}
+              src={images.fab}
               alt="Background"
               style={styles.photoImage}
               onError={(e) => {
