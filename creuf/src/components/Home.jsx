@@ -3,6 +3,7 @@ import { BarChart3, Users, Truck, TrendingUp, MapPin, Shield, Zap, Eye } from "l
 import depo2 from "../assets/depo2.jpg";
 import power from "../assets/power.jpg";
 import video from "../assets/video.mp4";
+import fabrikaImg from "../assets/fabrika.jpg";
 import { useLocation } from "react-router-dom";
 
 const Home = () => {
