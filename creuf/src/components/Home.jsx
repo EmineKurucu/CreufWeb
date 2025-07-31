@@ -118,11 +118,11 @@ const Home = () => {
         <div style={styles.rightSection}>
           {/* Arka planda fotoğraf var*/}
           <div style={styles.backgroundPhoto}>
-            <img 
-              src="src/assets/fabrika.jpg" 
-              alt="Background" 
-              style={styles.photoImage}
-            />
+          <img 
+            src={fabrikaImg}
+            alt="Background"
+            style={styles.photoImage}
+          />
             <div style={styles.photoOverlay}></div>
           </div>
           
@@ -171,9 +171,9 @@ const Home = () => {
           {/* Resmim1*/}
           <div style={styles.imageContainer}>
             <img 
-              src="/src/assets/fabrika.jpg" 
-              alt="Depo" 
-              style={styles.depoImage}
+              src={fabrikaImg}
+              alt="Background"
+              style={styles.photoImage}
             />
           </div>
         </div>
