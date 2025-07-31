@@ -19,7 +19,7 @@ const Home = () => {
     depo2: "/depo2.jpg",
     power: "/power.jpg", 
     video: "/video.mp4",
-    fabrika: "/endustri.jpg",
+    fabrika: "/fabrika.jpg",
     fab: "/fab.jpg"
   };
 
