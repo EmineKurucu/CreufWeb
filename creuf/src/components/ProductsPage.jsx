@@ -1,10 +1,10 @@
 import React from "react";
 import { MapPin, Users, Truck, Shield, Zap, Eye } from "lucide-react";
-import depo from "../assets/depo.jpg";
-import fabrika from "../assets/fabrika.jpg";
-import fabrika2 from "../assets/fabrika8.jpg";
-import uretim from "../assets/uretim.jpg";
-import power from "../assets/power.jpg";
+import depo from "../../public/depo.jpg";
+import fabrika from "../../public/fabrika.jpg";
+import fabrika2 from "../../public/fabrika8.jpg";
+import uretim from "../../public/uretim.jpg";
+import power from "../../publcic/power.jpg";
 
 const Products = () => {
   const products = [
