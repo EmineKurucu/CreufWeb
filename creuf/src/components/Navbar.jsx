@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../../pubic/logo3.png";
+
 
 const Navbar = () => {
   const location = useLocation();

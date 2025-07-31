@@ -16,11 +16,11 @@ const Home = () => {
 
   // Public klasöründen görselleri referans et
   const images = {
-    depo2: "../../public/depo2.jpg",
-    power: "../../public/power.jpg",
-    video: "../../public/video.mp4",
-    fabrika: "../../public/endustri.jpg",
-    fab: "../../public/fab.jpg"
+    depo2: "/depo2.jpg",
+    power: "/power.jpg", 
+    video: "/video.mp4",
+    fabrika: "/endustri.jpg",
+    fab: "/fab.jpg"
   };
 
   const features = [
