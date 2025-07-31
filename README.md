@@ -21,6 +21,9 @@ Endüstriyel alanda ürün tasarımı ve üretimi yapan bir şirket için React 
 
 - Lucide React: ikonlar
 
+### Canlı Website Linki
+[Canlı Website Linki](https://uw-bix-website.vercel.app/)
+
 ## Fotoğraflar
 
 ### Home Page
